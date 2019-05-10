@@ -12,6 +12,7 @@ public class HelloWorldApp {
 
 ***
 
-# <img src="/img/testng.jpg" width="24" height="24"> TestNG
+<!-- Fix icon size -->
+# <img src="/img/testng.jpg" width="24" height="24"> TestNG 
 
 - [_TestNG docs_](https://testng.org/doc/index.html)
