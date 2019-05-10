@@ -1,0 +1,3 @@
+TestNG
+How to write into console Test NG:
+Reporter.log("Text", true);
