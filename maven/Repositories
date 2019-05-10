@@ -1,0 +1,41 @@
+-- How to add Dependency into Maven --
+
+<repositories>
+</repositories>
+
+<dependencies>
+</dependencies>
+
+1. Navigate to pom.xml
+
+2. In the project create tags: 
+<dependencies>
+</dependencies>
+
+3. Add yout Dependency bettween tags
+<dependencies>
+__your_dependency__
+</dependencies>
+
+
+Example:
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>5.0.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>

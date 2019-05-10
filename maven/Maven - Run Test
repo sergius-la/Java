@@ -1,0 +1,5 @@
+//Run Test With Test NG
+1. Navigate to the Project Directory (in Terminal)
+mvn test -P__nameTest.xml__
+
+mvn test -POreoNoResetSuiteTest

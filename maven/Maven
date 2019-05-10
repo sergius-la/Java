@@ -1,0 +1,2 @@
+//Check Compiled Test Maven
+mvn test compile
