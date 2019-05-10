@@ -10,13 +10,16 @@ public class HelloWorldApp {
 
 <!-- - [Java docs]() - TODO -->
 
+- [__string__](/java/data_structures/String.md)
+- [__array__]()
+
 ***
 
 <!-- Fix icon size -->
 # <img src="/img/testng.jpg" width="24" height="24"> TestNG 
 
 - [_TestNG docs_](https://testng.org/doc/index.html)
-
+    - [_Maven_](https://testng.org/doc/maven.html)
 
 ***
 

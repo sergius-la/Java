@@ -1,4 +1,12 @@
+# String
+
+```java
 String text = "ABS";
+```
+
+## String.format
+
+```java
 String textTwo = String.format("abc %s", text);
 
 %s -> String
@@ -6,3 +14,4 @@ String textTwo = String.format("abc %s", text);
 %d -> int
 
 %f -> float
+```
