@@ -16,3 +16,10 @@ public class HelloWorldApp {
 # <img src="/img/testng.jpg" width="24" height="24"> TestNG 
 
 - [_TestNG docs_](https://testng.org/doc/index.html)
+
+
+***
+
+# <img src="/img/maven.png" width="24" height="24"> Maven
+
+- [_Maven docs_](https://maven.apache.org)
