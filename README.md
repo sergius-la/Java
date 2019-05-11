@@ -17,7 +17,9 @@ public class HelloWorldApp {
 
 ***
 
-<!-- ## Data Types -->
+## Data Types
+
+- [__Data conversion__](java/DataConversion.md)
 
 ## Functions
 - [__main()__](java/functions/Main.md)
