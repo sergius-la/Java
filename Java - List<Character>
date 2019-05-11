@@ -1,0 +1,2 @@
+//New List
+List<Character> list = new ArrayList<Character>();

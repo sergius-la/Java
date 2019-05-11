@@ -1,0 +1,17 @@
+//Print
+System.out.println("Print");
+System.out.println(__variable__);
+
+
+//Print certain numbers after dot.
+double number = 2.345;
+System.out.println(String.format("%.2f", number)); //2.34
+
+
+//Print Array
+double[] doubleArray = new double[10];
+System.out.println(Arrays.toString(doubleArray));
+
+
+//New line 
+String result = "\nNew Line";  -- \n

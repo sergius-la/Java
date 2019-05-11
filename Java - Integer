@@ -1,0 +1,32 @@
+//Integer length
+int a = 100;
+int length = Integer.toString(a).length();
+System.out.println(length); //3
+
+
+int a = 1000;
+int len = (int) (Math.log10(a)+1);
+System.out.println(length); //4
+
+
+//Reverse the Int if Number negative return negative reverse. 
+public static int reverse(int num) {
+
+        int reversed = 0;
+        int number = Math.abs(num);
+
+        while (number > 0) {
+
+            reversed *= 10; //Increase reserved digit
+            int digit = number % 10; //Last Digit
+            reversed += digit; //Add Last Digit to reverse Int
+
+            number = number / 10; //Step
+        }
+
+        if (num < 0) {
+            return -reversed;
+        } else {
+            return reversed;
+        }
+}

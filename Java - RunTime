@@ -1,0 +1,3 @@
+//Run Adb
+String AdbPath  "/Users/sergey/Library/Android/sdk/platform-tools/adb ";
+Process __AdbProcess__ = Runtime.getRuntime().exec(__AdbPath__+__command__);

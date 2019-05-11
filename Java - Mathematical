@@ -1,0 +1,47 @@
+% - Операции
+
+%2 -- Четные
+%2 != 0 -- Нечетные 
+
+%10 - Выдаст остаток от деления на 10
+%10 - Last Digit in a Number //15 --> 5
+
+
+//Деление на целые числа
+int pages = 9;
+int pagesToPrint = pages;
+pagesToPrint = (pages / 2) + (pages % 2);
+System.out.println(pagesToPrint); //5
+
+
+//Как найти, одно число больше другого числа на определенное число в примере на 10
+a - b >= 10 ||  b - a >= 10
+Math.abs(a - b) >= 10
+
+
+//Math.max Return the largest Intiger 
+int a = 2;
+int b = 3;
+System.out.println(Math.max(a, b));
+
+
+//Math.max for three Numbers
+Math.max(MY_INT1, Math.max(MY_INT2, MY_DOUBLE2));
+
+
+//Узнать если число из одной цифры
+int number = 9;
+if (number < 10) {
+  //Do Something
+}
+
+
+//Square root from Number
+double number = 16;
+double sqrtNumber = Math.sqrt(number);
+System.out.println(sqrtNumber); //4
+    
+    
+    
+//Randrom Number from 1 till *
+int randomNumber = (int) (Math.random() *6) + 1; //*6 + 1 - Generate from 1 till 6 

@@ -1,0 +1,3 @@
+//String to Int
+String numberAsString = "2018"; //Causing: Character can't be converted
+int number = Integer.parseInt(numberAsString);

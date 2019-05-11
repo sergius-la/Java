@@ -1,0 +1,53 @@
+//Последний элемент в массиве
+array[array.length - 1]
+
+
+//Середина в нечетном массиве (odd array)
+array[array.length/2]
+
+
+//Середина в четном массиве (even array)
+array[array.length/2 - 1]
+array[array.length/2]
+
+
+//Copy Array in Range
+int[] newArray = Arrays.copyOfRange(oldArray, startIndex, endIndex);
+
+   //index   0   1   2   3   4
+int[] arr = {10, 20, 30, 40, 50};
+Arrays.copyOfRange(arr, 0, 2);          // returns {10, 20}
+Arrays.copyOfRange(arr, 1, 4);          // returns {20, 30, 40}
+Arrays.copyOfRange(arr, 2, arr.length); // returns {30, 40, 50} (length = 5)
+
+
+//Check if Array is empty
+int[] array = {};
+
+if (array.length > 0) {
+    System.out.println("Array is Empty");
+}
+
+
+//Put value into Array
+double[] doubleArray = new double[10];
+    for(int i=0; i < doubleArray.length; i++) {
+        doubleArray[i] = i * 10;
+}
+
+
+
+    //Resize Array (Создают новый и копию оригинала, и в новый переписывают с оригинала)
+    private static int[] base = new int[10];
+    
+    private static int[] resizeArray(int[] array) {
+        
+        int[] original = base;
+        
+        base = new int[12];
+        
+        for (int i = 0; i < original.length; i++) {
+            base[i] = original[i];
+        }
+        return base;
+    }

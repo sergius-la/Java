@@ -1,0 +1,5 @@
+
+
+//String to Array<Character>
+String str = "String";
+char[] arrayChar = str.toCharArray();

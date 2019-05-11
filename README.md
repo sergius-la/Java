@@ -29,6 +29,7 @@ public class HelloWorldApp {
 ## Data Structure
 <!-- - [__array__]() -->
 - [__string__](/java/data_structures/String.md)
+- [__List__](/java/data_structures/List.md)
 
 ***
 
@@ -60,3 +61,4 @@ Unit test framework
 
 - [_Maven docs_](https://maven.apache.org)
 - [_Maven repository_](https://mvnrepository.com)
+- [__Maven__](/maven/Maven.md)

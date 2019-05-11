@@ -1,0 +1,5 @@
+//String to List<Character>
+String str = "abc";
+List<Character> list = str.chars().mapToObj(e->(char)e).collect(Collectors.toList());
+
+

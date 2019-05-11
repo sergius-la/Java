@@ -1,0 +1,12 @@
+Integer a = -8;
+double d = -100;
+float f = -90;
+
+System.out.println(Math.abs(a)); // 8
+System.out.println(Math.abs(d)); // 100     
+System.out.println(Math.abs(f)); // 90
+
+
+OR
+//Return -Number 
+System.out.println(-a);

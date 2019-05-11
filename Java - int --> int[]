@@ -1,0 +1,11 @@
+    //Int to Int[]
+    private static int[] intToArrayInt(int number) {
+
+        String temp = Integer.toString(number);
+        int[] newNumber = new int[temp.length()];
+
+        for (int i = 0; i < temp.length(); i++) {
+            newNumber[i] = temp.charAt(i) - '0';
+        }
+        return newNumber;
+    }

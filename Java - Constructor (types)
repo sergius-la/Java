@@ -1,0 +1,145 @@
+//Basic constructor
+public class VipCustomer {
+
+    private String name;
+    private double creditLimit;
+    private String email;
+
+
+    // -- Constructor with default values -- //
+    public VipCustomer() {
+        this("Customer Name", 1000.00, "email@bank.com");
+    }
+
+    // -- Constructor with two parameters and one default value -- //
+    public VipCustomer(String name, String email) {
+        this();
+
+        this.name = name;
+        this.email = email;
+    }
+
+    // -- Constructor with three parameters -- //
+    public VipCustomer(String name, double creditLimit, String email) {
+        this.name = name;
+        this.creditLimit = creditLimit;
+        this.email = email;
+    }
+}
+
+
+
+
+//Конструктор с условием
+public class EncapsulatedPlayer {
+
+    private String name;
+    private int health = 100;
+    private String heapon;
+
+    public EncapsulatedPlayer(String name, int health, String heapon) {
+
+        this.name = name;
+
+        if (health > 0 && health <= 100) {
+            this.health = health;
+        }
+
+        this.heapon = heapon;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void loseHealth(int damage) {
+        this.health = this.health - damage;
+
+        if (this.health <= 0) {
+            System.out.println("Player knocked out");
+            //Reduce number of lives remaining for the player
+        }
+    }
+}
+
+
+
+
+//Конструктор с присвоением значения для переменной по умолчанию
+public class PrinterTim {
+
+    private int tonerLevel;
+    private int pagesPrinted;
+    private boolean duplex;
+
+    public PrinterTim(int tonerLevel, boolean duplex) {
+
+        if (tonerLevel > -1 && tonerLevel <= 100) {
+            this.tonerLevel = tonerLevel;
+        } else {
+            this.tonerLevel = -1;
+        }
+
+        this.duplex = duplex;
+        this.pagesPrinted = 0; //Присвоение значение для переменное при ее создании.
+    }
+}
+
+
+
+
+
+//Коструктор для возврата нового объекта класса
+public class Contact {
+
+    String name;
+    String number;
+
+
+    public String getName() {
+        return name;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+    
+    //Конструктор
+    public Contact(String name, String number) { 
+        this.name = name;
+        this.number = number;
+    }
+
+    //Возвращает новый объект класса
+    public static Contact contactRecord(String name, String number) {
+        return new Contact(name, number);
+    }
+}
+
+
+
+    //Конструктор с базовым значением
+    public Player(String handleName) {
+        this.handleName = handleName;
+        lives = 3;
+        level = 1;
+        score = 0;
+    }
+    
+    public Player() {
+        this("Unknown player"); //Возврат базового значения
+    }
+    
+    
+    
+    
+    //Конструктор через Setter
+    public Player(String handleName) {
+        setHandleName(handleName);
+        setLives(3);
+        setLevel(1);
+        setScore(0);
+    }
+    
+    
+    

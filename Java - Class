@@ -1,0 +1,2 @@
+//Class Name
+String nameClass = getClass().getSimpleName();

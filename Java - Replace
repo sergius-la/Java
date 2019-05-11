@@ -1,0 +1,4 @@
+//Replace from a string
+String result = "ABCDA";
+result = result.replaceAll("A", ""); 
+//BCD

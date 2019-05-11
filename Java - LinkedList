@@ -1,0 +1,2 @@
+//Declaring a new LinkedList
+LinkedList<String> placeToVisit = new LinkedList<>();

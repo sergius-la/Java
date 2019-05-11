@@ -1,0 +1,2 @@
+//String to Char 
+char c = s.charAt(0);

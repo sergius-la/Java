@@ -1,0 +1,33 @@
+//Read Buffer Using Scanner 
+//--> http://www.codejava.net/java-se/file-io/execute-operating-system-commands-using-runtime-exec-methods
+
+Scanner scanner = new Scanner(process.getInputStream());
+scanner.useDelimiter("\r\n");
+ 
+while (scanner.hasNext()) {
+    System.out.println(scanner.next());
+}
+ 
+scanner.close();
+        
+
+
+
+//Get Only Numbers with catch exeption of leters
+private static double inputAmount()
+{
+    Scanner input = new Scanner(System.in);
+    while (true)
+    {
+        System.out.println("Insert amount:");
+        try
+        {
+            double amount = input.nextDouble();
+            return amount;
+        } 
+        catch (java.util.InputMismatchException e)
+        {
+            input.nextLine();
+        }
+    }
+}

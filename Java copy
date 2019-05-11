@@ -1,0 +1,110 @@
+//Java Version - In Terminal
+java -version
+
+
+//Make a negative number positive
+int x = Math.abs(-5);
+
+
+
+//Main Class in Java to start Java program
+public static void main(String[] args) {
+    
+}
+
+
+
+//Compare String need use methid equals
+
+
+
+
+
+
+
+//Метод для String split
+String text = "My Text";
+text.split();
+
+
+
+
+
+
+
+
+
+//While Loop
+
+while 
+
+
+
+
+//Functions
+void -- Функция котороя ничего не возвращает
+ 
+
+//Передача Аргумента в Функцию, указать тип принимаемой переменной и дать ей название.
+public void printSomething(String name) {
+    System.out.println(name);
+}
+
+//Функция которая возвращает надо указать тип данных которя она вернен
+public int multiplying (int a, int b) {
+    return a * b;
+}
+
+
+
+
+
+
+
+//Классы в Java
+this -- Возвращает переменную в классе
+
+public class Bicycle {
+
+    double speed;
+    String color;
+
+    public Bicycle(double mph, String color) {
+        speed = mph;
+        this.color = color;
+    }
+}
+
+
+
+
+
+//Method for Delete Somethig from a String
+
+    public String delDel(String str, String del) {
+
+        String result = str;
+
+        if(result.contains(del)) {
+            result = result.replaceFirst(del, "");
+            System.out.println(result);
+        }
+
+        return result;
+    }
+
+
+
+
+
+
+//The length is nums.length, the first element is nums[0] and the last element is nums[nums.length - 1]
+
+
+
+
+
+
+
+
+

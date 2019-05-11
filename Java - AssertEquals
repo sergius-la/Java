@@ -1,0 +1,4 @@
+//AssertEquals
+assertEquals(expected: "String", actual "String");
+assertEquals("Invalid credentials", driver.findElement(By.id("spanMessage")).getText());
+

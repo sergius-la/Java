@@ -1,0 +1,42 @@
+        //Input using console
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a positive number");
+
+        boolean hasNextInt = scanner.hasNextInt();
+
+        if (hasNextInt) {
+            int number = scanner.nextInt();
+            scanner.nextLine();
+
+            if (number > 0) {
+                System.out.println("Number is " + number);
+            } else {
+                System.out.println(number + " number is negative");
+            }
+        } else {
+            System.out.println("Unable to parse the number");
+        }
+
+        scanner.close();
+        
+        
+        
+        
+    // -- Scanner Sysmet.in -- //
+
+    //Input Number into Array
+    private static int[] getIntegers(int number) {
+
+        int[] numbers = new int[number];
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Type " +number+ " numbers \r");
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = scanner.nextInt();
+        }
+        return numbers;
+    }
+    

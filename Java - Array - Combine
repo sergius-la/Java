@@ -1,0 +1,17 @@
+    //Combine Array
+    public int[] plusTwo(int[] a, int[] b) {
+
+        int[] arr = new int[a.length + b.length];
+        int count = 0;
+        
+        for (int i = 0; i < a.length; i++) {
+            arr[i] = a[i];
+            count ++;
+        }
+        
+        for (int i = 0; i < b.length; i++) {
+            arr[count] = b[i];
+            count ++;
+        }
+        return arr;
+    }

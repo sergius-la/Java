@@ -1,0 +1,36 @@
+Map
+
+-keys-  -values-
+
+us -> United States
+es -> Spain
+zw -> Zimbabwe
+
+Map get() method // Retrive existing pair
+
+Map<String, String> map = ....(not shown yet)...;
+
+country = map.get("es");   // returns "Spain"
+country = map.get("meh");  // returns null
+
+
+Map put() method //Add a new key/value pair, Modify existing value
+
+
+Map<String, String> map = new HashMap<String, String>();  // Make an empty map
+
+map.put("es", "Spain");  // Add the key/value pairs
+map.put("us", "United States");
+map.put("zw", "Zimbabwe");
+
+
+Map containsKey() method
+
+if (map.containsKey("hello")) {
+    String value = map.get("hello");
+    // do something with value
+    
+    
+Map remove() method
+
+To remove a key/value from a Map, call map.remove(key).

@@ -1,0 +1,3 @@
+//How to Save String Variable into txt file
+PrintWriter out = new PrintWriter("filename.txt");
+out.println(__variable__);

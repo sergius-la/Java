@@ -1,0 +1,8 @@
+//Parce Double to Format
+double num = 13.123456;
+String numString = String.format("%.2f", num); //Where "%.2f" is number of digit after dot.
+
+
+//Parce Double to Format
+double num = 13.123656;
+num = Double.parseDouble(new DecimalFormat("##.####").format(num));

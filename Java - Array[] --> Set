@@ -1,0 +1,6 @@
+String [] countries = {"India", "Switzerland", "Italy"}; 
+		
+Set<String> set = new HashSet<String>(Arrays.asList(countries));
+System.out.println(set);
+
+Set<Integer> set = new HashSet<Integer>(Arrays.asList(integerArr));

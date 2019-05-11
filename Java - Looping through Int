@@ -1,0 +1,11 @@
+//Looping through Int
+
+        int num = 4123;
+
+        while (num > 0) { 
+
+            int digit = num % 10;//Loop will throught last digit: 3, 2, 1
+            
+
+            num = num / 10;
+        }

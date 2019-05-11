@@ -1,0 +1,3 @@
+//String to Double 
+String numberAsString = "20.18"; //Causing: Character can't be converted. Floating point should be a dot.
+double number = Double.parseDouble(numberAsString);

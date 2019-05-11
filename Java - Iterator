@@ -1,0 +1,12 @@
+//Iterator        
+Iterator<String> i = linkedList.iterator();
+int index = 0;
+
+while (i.hasNext()) {
+    System.out.println("Now visiting " +index+ ": " +i.next());
+    index ++;
+}
+
+
+//List Iterator
+ListIterator<String> i = linkedList.listIterator();

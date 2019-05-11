@@ -1,0 +1,22 @@
+// -- For Loop -- //
+
+
+// -- init(индекс); termination(условие); increcement(шаг) -- //
+
+
+//Incresment Loop
+for (int i = 0; i < 10; i++) {
+    System.out.println(i);
+} //0 1 2 3 4 5 6 7 8 9
+
+
+//Decresment Loop
+for (int i = 10; i >= 0; i--  ) {
+    System.out.println(i);
+}
+
+
+//Decresment Loop using ixdex
+for (int i = 0; i <= 10; i++  ) {
+    System.out.println(10 - i);
+}

@@ -1,0 +1,7 @@
+//Information from with all
+https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html
+
+//Return String with Project Directory
+System.getProperty("user.dir");
+
+System.out.println(System.getProperty("user.dir") + "/src/main/java")
