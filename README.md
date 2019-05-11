@@ -8,16 +8,25 @@ public class HelloWorldApp {
 }
 ```
 
-Java Version - `java -version` <br>
-Compile Java - `javac <file>.java` <br>
-Run Java programm - `java <file>.class`
-
-- [__Java:__ Terminal, Compile, Run](java/Java.md)
+***
 
 <!-- - [Java docs]() - TODO -->
 
+- [__Java:__ Terminal, Compile, Run](java/Java.md)
+- [__Operators__](java/Operators.md)
+
+***
+
+<!-- ## Data Types -->
+
+## Functions
+- [__main()__](java/functions/Main.md)
+
+***
+
+## Data Structure
+<!-- - [__array__]() -->
 - [__string__](/java/data_structures/String.md)
-- [__array__]()
 
 ***
 
@@ -27,16 +36,23 @@ Run Java programm - `java <file>.class`
 Unit test framework
 
 - [_TestNG docs_](https://testng.org/doc/documentation-main.html)
-    - [_TestNG docs: Maven_](https://testng.org/doc/maven.html)
+   - [__@DataProvider__](TestNG/DataProvider.md)
+
+***
+
+### Maven
+
+- [_TestNG docs: Maven_](https://testng.org/doc/maven.html)
     - [_Maven repository: TestNG_](https://mvnrepository.com/artifact/org.testng/testng)
-    ```xml
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>6.8</version>
-        <scope>test</scope>
-    </dependency>
-    ```
+
+```xml
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.8</version>
+    <scope>test</scope>
+</dependency>
+```
 
 ***
 

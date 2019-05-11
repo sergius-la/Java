@@ -1,5 +1,8 @@
-More than one @DataProvider for one @Test
+# DataProvider
 
+Multiple `@DataProvider` for one test 
+
+```java
 public Object[][] dp1() {
   return new Object[][] {
       new Object[] { "a", "b" },
@@ -26,3 +29,4 @@ public Object[][] dp() {
 public void f(String a, String b) {
   System.out.println("f " + a + " " + b);
 }
+```

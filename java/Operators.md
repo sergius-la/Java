@@ -1,3 +1,6 @@
+# Operators
+
+```java
 // -- Simple Assignment Operator -- //
 =   Simple assignment operator 
 
@@ -38,7 +41,7 @@
 // -- Type Comparison Operator -- //
 instanceof  Compares an object to a specified type (Проверка объекта является ли он наследником какого-то объекта)
 
-// -- Bitwise and Bit Shift Operators(Побитовые операции) -- //
+// -- Bitwise and Bit Shift Operators (Побитовые операции) -- //
 ~   Unary bitwise complement
 <<  Signed left shift
 >>  Signed right shift
@@ -47,8 +50,7 @@ instanceof  Compares an object to a specified type (Проверка объек�
 ^   Bitwise exclusive OR (При проверки двух boolean будет проверять что она ризные *)
 |   Bitwise inclusive OR
 
-
-*
 if (true ^ false) {
     System.out.println("True");
 }
+```
