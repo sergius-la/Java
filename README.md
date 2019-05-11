@@ -38,8 +38,6 @@ Unit test framework
 - [_TestNG docs_](https://testng.org/doc/documentation-main.html)
    - [__@DataProvider__](TestNG/DataProvider.md)
 
-***
-
 #### Maven
 
 - [_TestNG docs: Maven_](https://testng.org/doc/maven.html)
