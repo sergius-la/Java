@@ -1,7 +1,11 @@
-<!-- ```sh
-> description
-command
-``` -->
+# Java
+
+Java Version - `java -version` <br>
+Run Java programm - `java <file>.class`
+
+# Compile
+
+Compile Java - `javac <file>.java`
 
 ```sh
 > Compile file
@@ -13,20 +17,14 @@ javac 'directory name'/**/*.java -d 'directory name'
 javac src/**/*.java -d/build 
 ```
 
-***
+# Run
 
-```sh
-> Run
+```shell
 java 'file name'
+```
 
+```shell
 > Run Program
 java -cp 'directory name' 'class name'
 java -cp build com.test.humans.Human
-```
-
-***
-
-```sh
-> Jave version
-java -version
 ```

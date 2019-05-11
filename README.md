@@ -8,6 +8,12 @@ public class HelloWorldApp {
 }
 ```
 
+Java Version - `java -version` <br>
+Compile Java - `javac <file>.java` <br>
+Run Java programm - `java <file>.class`
+
+- [__Java:__ Terminal, Compile, Run](java/Java.md)
+
 <!-- - [Java docs]() - TODO -->
 
 - [__string__](/java/data_structures/String.md)
@@ -18,7 +24,9 @@ public class HelloWorldApp {
 <!-- Fix icon size -->
 # <img src="/img/testng.jpg" width="24" height="24"> TestNG 
 
-- [_TestNG docs_](https://testng.org/doc/index.html)
+Unit test framework
+
+- [_TestNG docs_](https://testng.org/doc/documentation-main.html)
     - [_TestNG docs: Maven_](https://testng.org/doc/maven.html)
     - [_Maven repository: TestNG_](https://mvnrepository.com/artifact/org.testng/testng)
     ```xml
