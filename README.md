@@ -29,7 +29,8 @@ public class HelloWorldApp {
 ## Data Structure
 <!-- - [__array__]() -->
 - [__string__](/java/data_structures/String.md)
-- [__List__](/java/data_structures/List.md)
+- [__List\<Type>__](/java/data_structures/List.md)
+- [__HashMap\<\<Key>, \<Value>>__](/java/data_structures/List.md)
 
 ***
 
