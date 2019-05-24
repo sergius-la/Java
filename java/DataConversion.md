@@ -87,6 +87,11 @@ List<Integer> result = new ArrayList<Integer>();
 result.stream().mapToInt(i->i).toArray();
 ```
 
+#### List\<Integer> -> HashSet\<Integer>
+```java
+
+```
+
 ## String[]
 
 #### String[] -> Set<String>

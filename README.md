@@ -25,12 +25,20 @@ public class HelloWorldApp {
 - [__main()__](java/functions/Main.md)
 
 ***
-
+String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb";
 ## Data Structure
 <!-- - [__array__]() -->
 - [__string__](/java/data_structures/String.md)
 - [__List\<Type>__](/java/data_structures/List.md)
 - [__HashMap\<\<Key>, \<Value>>__](/java/data_structures/List.md)
+
+***
+
+## System
+
+- [__System:__ Env](/java/System.md)
+- [__Runtime__](/java/Runtime.md)
+- Runtime.getRuntime().exec("/Users/sergey/Library/Android/sdk/platform-tools/adb reboot")
 
 ***
 
