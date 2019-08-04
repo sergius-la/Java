@@ -92,6 +92,13 @@ result.stream().mapToInt(i->i).toArray();
 
 ```
 
+## HashSet\<Integer>
+
+#### HashSet\<Integer> -> List\<Integer>
+```java
+
+```
+
 ## String[]
 
 #### String[] -> Set<String>
