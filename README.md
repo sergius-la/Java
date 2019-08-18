@@ -42,9 +42,9 @@ String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb";
 
 ***
 
-## Unit tests
+## Unit Testing Frameworks
 
-### <img src="/img/testng.jpg" width="16" height="16"> [TestNG](/TestNG/README.md) 
+### <img src="/img/testng.jpg" width="20" height="20"> [TestNG](/TestNG/README.md) 
 
 ***
 
