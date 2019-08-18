@@ -23,6 +23,7 @@ public class HelloWorldApp {
 
 ## Functions
 - [__main()__](java/functions/Main.md)
+- [__`reTry()`__](java/functions/reTry.md)
 
 ***
 String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb";
