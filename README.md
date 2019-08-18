@@ -42,27 +42,9 @@ String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb";
 
 ***
 
-<!-- Fix icon size -->
-# <img src="/img/testng.jpg" width="24" height="24"> TestNG 
+## Unit tests
 
-Unit test framework
-
-- [_TestNG docs_](https://testng.org/doc/documentation-main.html)
-   - [__@DataProvider__](TestNG/DataProvider.md)
-
-#### Maven
-
-- [_TestNG docs: Maven_](https://testng.org/doc/maven.html)
-    - [_Maven repository: TestNG_](https://mvnrepository.com/artifact/org.testng/testng)
-
-```xml
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>6.8</version>
-    <scope>test</scope>
-</dependency>
-```
+### <img src="/img/testng.jpg" width="16" height="16"> [TestNG](/TestNG/README.md) 
 
 ***
 
