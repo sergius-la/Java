@@ -1,4 +1,4 @@
-# <img src="/img/testng.jpg" width="26" height="26"> TestNG 
+# <img src="/img/testng.jpg" width="28" height="26"> TestNG 
 
 Unit test framework
 
