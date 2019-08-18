@@ -23,7 +23,7 @@ public class HelloWorldApp {
 
 ## Functions
 - [__main()__](java/functions/Main.md)
-- [__`reTry()`__](java/functions/reTry.md)
+- [__`re-try-catch()`__](java/functions/reTry.md)
 
 ## Loops
 - [__while, do while__](/java/loops/while.md)
