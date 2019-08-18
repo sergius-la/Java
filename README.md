@@ -25,6 +25,9 @@ public class HelloWorldApp {
 - [__main()__](java/functions/Main.md)
 - [__`reTry()`__](java/functions/reTry.md)
 
+## Loops
+- [__while, do while__](/java/loops/while.md)
+
 ***
 String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb";
 ## Data Structure
