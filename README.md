@@ -29,12 +29,17 @@ public class HelloWorldApp {
 - [__while, do while__](/java/loops/while.md)
 
 ***
-String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb";
-## Data Structure
+
+## Data type
+
+- [__`String`__](/java/data_structures/String.md)
+
+<!-- String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb"; -->
+## Collection data types
 <!-- - [__array__]() -->
-- [__string__](/java/data_structures/String.md)
-- [__List\<Type>__](/java/data_structures/List.md)
-- [__HashMap\<\<Key>, \<Value>>__](/java/data_structures/List.md)
+- [Multidimensional Arrays __`type[][]`__](/java/data_structures/List.md)
+- [__`List<Type>`__](/java/data_structures/List.md)
+- [__`HashMap\<\<Key>, \<Value>>`__](/java/data_structures/List.md)
 
 ***
 
