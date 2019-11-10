@@ -37,7 +37,7 @@ public class HelloWorldApp {
 <!-- String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb"; -->
 ## Collection data types
 <!-- - [__array__]() -->
-- [Multidimensional Arrays __`type[][]`__](/java/data_structures/List.md)
+- [Multidimensional Arrays __`type[][]`__](/java/data_structures/multidimensional_arrays.md)
 - [__`List<Type>`__](/java/data_structures/List.md)
 - [__`HashMap\<\<Key>, \<Value>>`__](/java/data_structures/List.md)
 
