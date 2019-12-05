@@ -34,20 +34,21 @@ public class HelloWorldApp {
 
 - [__`String`__](/java/data_structures/String.md)
 
-<!-- String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb"; -->
 ## Collection data types
 <!-- - [__array__]() -->
 - [Multidimensional Arrays __`type[][]`__](/java/data_structures/multidimensional_arrays.md)
 - [__`List<Type>`__](/java/data_structures/List.md)
-- [__`HashMap\<\<Key>, \<Value>>`__](/java/data_structures/List.md)
+- [__`HashMap<<Key>, <Value>>`__](/java/data_structures/hash_map.md)
 
 ***
 
 ## System
 
+<!-- - Runtime.getRuntime().exec("/Users/sergey/Library/Android/sdk/platform-tools/adb reboot") -->
+<!-- String adbPath = System.getenv("ANDROID_HOME") + "/platform-tools/adb"; -->
+
 - [__System:__ Env](/java/System.md)
 - [__Runtime__](/java/Runtime.md)
-- Runtime.getRuntime().exec("/Users/sergey/Library/Android/sdk/platform-tools/adb reboot")
 
 ***
 
@@ -57,7 +58,7 @@ public class HelloWorldApp {
 
 ***
 
-# <img src="/img/maven.png" width="24" height="24"> Maven
+### <img src="/img/maven.png" width="22" height="20"> Maven
 
 - [_Maven docs_](https://maven.apache.org)
 - [_Maven repository_](https://mvnrepository.com)
